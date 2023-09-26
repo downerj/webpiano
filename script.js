@@ -247,4 +247,7 @@ window.addEventListener('blur', () => {
 
 window.addEventListener('resize', () => {
   resizeCanvas();
+  clearScope();
+  drawCenterLine();
+  drawWave();
 });
