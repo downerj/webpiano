@@ -2,10 +2,17 @@
   box-sizing: border-box;
 }
 
+:root {
+  --scope-center-line-color: red;
+  --scope-main-color: #00aaff;
+  --scope-background-color: black;
+}
+
 body {
   margin: 0;
   width: 100%;
   height: 100%;
+  background-color: black;
 
   display: flex;
   flex-direction: column;
@@ -21,4 +28,8 @@ body {
   width: 100%;
   height: 200px;
   border: 1px solid black;
+}
+
+canvas {
+  background-color: var(--scope-background-color);
 }
